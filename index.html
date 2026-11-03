@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#100d25"><title>A kilómetros de distancia</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="sky"><div id="stars"></div><div class="nebula n1"></div><div class="nebula n2"></div><div class="moon"></div></div>
+<main class="shell">
+<header><span>UNA HISTORIA ESCRITA CON AMOR</span><span id="count">01 / 06</span></header>
+<audio id="backgroundMusic" src="assets/musica/vamonos-a-marte.mp3" loop preload="auto"></audio>
+<section class="scene active">
+<div class="eyebrow">PARA MI COLOCHITA HERMOSA</div><div class="orbit"><i></i><b>✦</b></div>
+<h1>A kilómetros de distancia,<br><em>pero siempre en mi corazón.</em></h1>
+<p>Hay cosas que la distancia puede separar, pero hay sentimientos que ni todos los kilómetros del mundo pueden cambiar.</p>
+<button class="primary" id="startStory">Comenzar nuestra historia <b>→</b></button><small>Una pequeña historia hecha especialmente para ti</small>
+<div class="music-note" id="musicNote" aria-live="polite">♫ La música comenzará al abrir nuestra historia</div>
+</section>
+<section class="scene">
+<div class="eyebrow">01 — DOS LUGARES, UN MISMO CIELO</div><div class="twostars"><span>✦</span><i></i><span>✦</span></div>
+<h2>Aunque hoy nos separen tantos kilómetros...</h2>
+<p>Me gusta pensar que, cuando miramos el cielo, compartimos un pedacito del mismo universo. Quizá no pueda estar a tu lado en este momento, pero de alguna manera siempre encuentro la forma de sentirte cerquita.</p><blockquote>La distancia explica dónde estamos, pero no cuánto te quiero.</blockquote>
+<button class="primary" data-next>Seguir <b>→</b></button>
+</section>
+<section class="scene">
+<div class="eyebrow">02 — ESAS PEQUEÑAS COSAS</div><div class="heart">♡</div>
+<h2>Hay momentos en los que me haces muchísima falta.</h2>
+<p>Extraño imaginar cómo sería tenerte cerquita, abrazarte sin mirar el reloj, escuchar tu voz sin depender de una llamada y poder compartir contigo hasta los momentos más sencillos.</p><blockquote>A veces no necesito un plan especial; me bastaría con un ratito contigo.</blockquote>
+<button class="primary" data-next>Continuar <b>→</b></button>
+</section>
+<section class="scene">
+<div class="eyebrow">03 — LO QUE SIENTO POR TI</div><div class="constellation">✦　·　✧　·　✦</div>
+<h2>Te sigo eligiendo a ti.</h2>
+<p>No porque todo tenga que ser perfecto, sino porque eres la persona con la que quiero seguir compartiendo mis días. Me encanta tenerte en mi vida y me ilusiona todo lo que todavía podemos vivir juntos.</p><blockquote>Mi cariño por ti no depende de qué tan cerca estés.</blockquote>
+<button class="primary" data-next>Hay algo que quiero prometerte <b>→</b></button>
+</section>
+<section class="scene">
+<div class="eyebrow">04 — LO QUE QUIERO CUIDAR</div><div class="infinity">∞</div>
+<h2>Quiero que lo nuestro sea sincero y bonito.</h2>
+<p>Quiero una relación con confianza, respeto, fidelidad y honestidad. Que podamos hablarnos con la verdad, cuidarnos incluso en los días difíciles y nunca olvidar que estamos del mismo lado.</p><blockquote>No te prometo una historia sin problemas; quiero poner de mi parte para que siempre podamos afrontarlos juntos.</blockquote>
+<button class="primary" data-next>Leer algo que escribí para ti <b>→</b></button>
+</section>
+<section class="scene letter-scene">
+<div class="eyebrow">05 — CON TODO MI CARIÑO</div><h2>Si pudiera tenerte aquí...</h2>
+<article class="letter">
+<p>Mi amor…</p>
+<p>A veces quisiera tenerte aquí, aunque fuera por un ratito. Poder abrazarte, darte un beso, mirarte a los ojitos y decirte lo mucho que te amo sin tener que hacerlo a través de una pantalla.</p>
+<p>No sabes cuántas veces he deseado que la distancia fuera más pequeña, porque hay momentos en los que simplemente quisiera estar contigo, contarte cualquier tontería, hacerte reír o quedarme abrazándote sin preocuparme por la hora.</p>
+<p>Quiero que sepas que te amo muchísimo y que, aunque no siempre encuentre las palabras para demostrarlo, eres alguien muy importante en mi vida. No quiero que lo nuestro sea algo pasajero. De verdad deseo que podamos llegar muy lejos, que algún día podamos cumplir todas esas cosas que imaginamos y que llegue el momento en el que ya no tengamos que despedirnos a través de una pantalla.</p>
+<p>No quiero una relación perfecta, quiero una relación sincera. Quiero que siempre haya confianza, respeto, fidelidad y amor entre nosotros. Que nunca nos falten las ganas de cuidarnos, de escucharnos y de elegirnos incluso cuando las cosas no sean tan fáciles.</p>
+<p>Yo no sé qué nos espera más adelante, pero sí sé que me gustaría vivir muchas cosas contigo. Quiero conocer más de ti, seguir enamorándome de tus ocurrencias, compartir días bonitos y también superar los difíciles.</p>
+<p>Y si algún día te preguntas cuánto te amo o cuánto significas para mí, espero que recuerdes que hay alguien que, a pesar de todos los kilómetros que los separan, sigue deseando tenerte cerquita y compartir su vida contigo.</p>
+<p>Ojalá llegue pronto ese día en el que pueda abrazarte y decirte todo esto mirándote a los ojos.</p>
+<p class="signature">Te amo muchísimo, mi colochita hermosa. Y si de mí depende, todavía nos quedan muchísimas páginas por escribir juntos. <b>♥</b></p>
+</article><div class="ending">Dos corazones, un mismo deseo: seguir escribiendo nuestra historia.</div><button class="secondary" id="restart">Volver a comenzar ↺</button>
+</section>
+<div class="music-controls"><button id="musicToggle" type="button" hidden>♫ Pausar música</button><span id="musicStatus" aria-live="polite"></span></div>
+<nav><button id="back" disabled>← Anterior</button><div class="progress"><i id="bar"></i></div><button id="next">Siguiente →</button></nav>
+</main><footer>HECHO CON MUCHO AMOR <b>♥</b></footer><script src="script.js"></script></body></html>

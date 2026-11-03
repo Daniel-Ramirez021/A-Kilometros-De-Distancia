@@ -1,0 +1,13 @@
+A KILÓMETROS DE DISTANCIA — versión con música
+
+1. Descomprime la carpeta.
+2. Dentro de assets/musica/ coloca una copia MP3 de la canción que tengas derecho a usar.
+3. El archivo debe llamarse exactamente: vamonos-a-marte.mp3
+4. Abre index.html en el navegador.
+5. Al pulsar “Comenzar nuestra historia”, la música intentará reproducirse automáticamente.
+   Aparecerá un botón para pausar o reanudarla.
+
+IMPORTANTE: El proyecto no incluye la grabación comercial de “Vámonos a Marte” de Kevin Kaarl.
+Por derechos de autor, añade tú un archivo de audio obtenido legalmente o para el que tengas permiso.
+La música se reproduce en bucle y comienza al pulsar el botón, porque los navegadores bloquean
+la reproducción automática antes de una interacción del usuario.
